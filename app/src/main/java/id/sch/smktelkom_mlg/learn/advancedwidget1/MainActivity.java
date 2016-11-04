@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         int jumlah = (int) spJumlah.getSelectedItem();
         String hasil = "";
         for (int i = 1; i <= jumlah; i++) {
-            LinearLayout llNow = (LinearLayout) llAnak.findViewWithTag("Anak" + 1);
+            LinearLayout llNow = (LinearLayout) llAnak.findViewWithTag("Anak" + i);
 
             EditText etNama = (EditText) llNow.findViewById(R.id.editTextNama);
             EditText etUmur = (EditText) llNow.findViewById(R.id.editTextUmur);
